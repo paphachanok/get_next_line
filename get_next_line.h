@@ -6,7 +6,7 @@
 /*   By: ppoti <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/10 09:46:01 by ppoti             #+#    #+#             */
-/*   Updated: 2023/01/22 01:23:51 by ppoti            ###   ########.fr       */
+/*   Updated: 2023/01/22 02:10:51 by ppoti            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 #include <stdlib.h>
 #include <fcntl.h>
 
-void	*ft_bzero(void *buffer, size_t len);
+// void	*ft_bzero(void *buffer, size_t len);
 char	*ft_cut_line(char *str, int len);
 char	*ft_new_start(char	*str, int len);
 char	*ft_read(char *buffer, int fd);
