@@ -6,26 +6,26 @@
 /*   By: ppoti <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/10 16:03:56 by ppoti             #+#    #+#             */
-/*   Updated: 2023/01/22 03:02:20 by ppoti            ###   ########.fr       */
+/*   Updated: 2023/01/22 10:08:16 by ppoti            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line_bonus.h"
 
-void	*ft_bzero(void *buffer, size_t len)
-{
-	size_t			i;
-	unsigned char	*b;
+// void	*ft_bzero(void *buffer, size_t len)
+// {
+// 	size_t			i;
+// 	unsigned char	*b;
 
-	i = 0;
-	b = buffer;
-	while (i < len)
-	{
-		b[i] = '\0';
-		i++;
-	}
-	return (b);
-}
+// 	i = 0;
+// 	b = buffer;
+// 	while (i < len)
+// 	{
+// 		b[i] = '\0';
+// 		i++;
+// 	}
+// 	return (b);
+// }
 
 char	*ft_cut_line(char *str, int len)
 {
